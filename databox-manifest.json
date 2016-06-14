@@ -1,0 +1,32 @@
+{
+	"manifest-version": 1,
+
+	"name": "databox-driver-mock",
+	"version": "0.1.0",
+
+	"description": "A fake driver container to test authentication with",
+	"author": "Yousef Amar <yousef@amar.io> (http://yousefamar.com/)",
+	"license": "MIT",
+
+	"tags": [
+		"driver",
+		"mock",
+		"native",
+		"debug",
+		"test"
+	],
+
+	"homepage": "https://github.com/me-box/databox-driver-mock",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/me-box/databox-driver-mock.git"
+	},
+
+	"network-permissions": [
+	],
+	"hardware-permissions": [
+	],
+
+	"resource-requirements": {
+	}
+}
