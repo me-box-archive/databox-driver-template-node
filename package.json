@@ -1,34 +1,30 @@
 {
-  "name": "databox-driver-mock",
+  "name": "databox-driver-template-node",
   "version": "0.1.0",
-  "description": "A fake driver container to test authentication with",
+  "description": "A template Databox driver in Node.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lsc main.ls",
-    "release": "docker build -t databox-driver-mock . && docker tag databox-driver-mock amar.io:5000/databox-driver-mock && docker push amar.io:5000/databox-driver-mock"
+    "start": "node main.js",
+    "publish": "docker build -t databox-driver-template-node . && docker tag databox-driver-template-node localhost:5000/databox-driver-template-node && docker push localhost:5000/databox-driver-template-node"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/me-box/databox-driver-mock.git"
+    "url": "git+https://github.com/yousefamar/databox-driver-template-node.git"
   },
   "keywords": [
-    "docker",
-    "databox",
-    "personal",
-    "data",
+    "template",
     "driver",
-    "mock"
+    "mock",
+    "nodejs"
   ],
   "author": "Yousef Amar <yousef@amar.io> (http://yousefamar.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/me-box/databox-driver-mock/issues"
+    "url": "https://github.com/yousefamar/databox-driver-template-node/issues"
   },
-  "homepage": "https://github.com/me-box/databox-driver-mock#readme",
+  "homepage": "https://github.com/yousefamar/databox-driver-template-node#readme",
   "dependencies": {
-    "express": "^4.13.4",
-    "faker": "^3.1.0",
-    "livescript": "^1.4.0",
-    "request": "^2.72.0"
+    "containerized": "^1.0.2",
+    "request": "^2.79.0",
+    "ws": "^2.1.0"
   }
 }
