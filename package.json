@@ -1,0 +1,34 @@
+{
+  "name": "databox-driver-mock",
+  "version": "0.1.0",
+  "description": "A fake driver container to test authentication with",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lsc main.ls",
+    "release": "docker build -t databox-driver-mock . && docker tag databox-driver-mock amar.io:5000/databox-driver-mock && docker push amar.io:5000/databox-driver-mock"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/me-box/databox-driver-mock.git"
+  },
+  "keywords": [
+    "docker",
+    "databox",
+    "personal",
+    "data",
+    "driver",
+    "mock"
+  ],
+  "author": "Yousef Amar <yousef@amar.io> (http://yousefamar.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/me-box/databox-driver-mock/issues"
+  },
+  "homepage": "https://github.com/me-box/databox-driver-mock#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "faker": "^3.1.0",
+    "livescript": "^1.4.0",
+    "request": "^2.72.0"
+  }
+}
