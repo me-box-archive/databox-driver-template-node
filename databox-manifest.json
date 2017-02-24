@@ -1,32 +1,27 @@
 {
 	"manifest-version": 1,
 
-	"name": "databox-driver-mock",
+	"name": "databox-driver-template-node",
+	"databox-type": "driver",
 	"version": "0.1.0",
 
-	"description": "A fake driver container to test authentication with",
+	"description": "A template Databox driver in Node.js",
 	"author": "Yousef Amar <yousef@amar.io> (http://yousefamar.com/)",
 	"license": "MIT",
-
 	"tags": [
+		"template",
 		"driver",
 		"mock",
-		"native",
-		"debug",
-		"test"
+		"nodejs"
 	],
 
-	"homepage": "https://github.com/me-box/databox-driver-mock",
+	"homepage": "https://github.com/me-box/databox-driver-template-node",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/me-box/databox-driver-mock.git"
+		"url": "git+https://github.com/me-box/databox-driver-template-node"
 	},
 
-	"network-permissions": [
-	],
-	"hardware-permissions": [
-	],
-
-	"resource-requirements": {
-	}
+	"packages": [],
+	"allowed-combinations": [],
+	"datasources": []
 }
