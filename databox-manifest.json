@@ -23,5 +23,9 @@
 
 	"packages": [],
 	"allowed-combinations": [],
-	"datasources": []
+	"datasources": [],
+
+	"resource-requirements": {
+		"store": "databox-store-blob"
+	}
 }
