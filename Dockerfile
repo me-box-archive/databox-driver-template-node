@@ -1,8 +1,7 @@
-FROM node:argon
+FROM node:alpine
 
-ADD package.json package.json
-RUN npm install
 ADD . .
+RUN npm install
 
 LABEL databox.type="driver"
 
