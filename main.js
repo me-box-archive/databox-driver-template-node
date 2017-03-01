@@ -1,4 +1,4 @@
-var databox = require('./lib/databox.js');
+var databox = require('node-databox');
 
 var store = process.env.DATABOX_DRIVER_TEMPLATE_NODE_DATABOX_STORE_BLOB_ENDPOINT;
 
