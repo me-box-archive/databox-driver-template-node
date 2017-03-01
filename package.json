@@ -23,8 +23,6 @@
   },
   "homepage": "https://github.com/yousefamar/databox-driver-template-node#readme",
   "dependencies": {
-    "containerized": "^1.0.2",
-    "request": "^2.79.0",
-    "ws": "^2.1.0"
+    "node-databox": "^0.1.0"
   }
 }
