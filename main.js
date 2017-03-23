@@ -2,7 +2,8 @@ var databox = require('node-databox');
 
 var store = process.env.DATABOX_DRIVER_TEMPLATE_NODE_DATABOX_STORE_BLOB_ENDPOINT;
 
-Promise.resolve().then(() => {
+databox.waitForStoreStatus(store,'active',100)
+.then(() => {
 	return databox.keyValue.write(store, 'test', { foo: 'bar' });
 }).then((res) => {
 	console.log(res);
