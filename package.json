@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/yousefamar/databox-driver-template-node#readme",
   "dependencies": {
-    "node-databox": "^0.3.0"
+    "node-databox": "^0.5.0"
   }
 }
